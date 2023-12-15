@@ -1,2 +1,3 @@
-<h1>Profile</h1>
-<p>This is where the profile app will be.</p>
+<main class="w-full h-full p-4 flex flex-col items-center justify-center">
+  <p>Profile</p>
+</main>
