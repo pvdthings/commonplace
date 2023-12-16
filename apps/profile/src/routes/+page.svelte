@@ -1,3 +1,13 @@
-<main class="w-full h-full p-4 flex flex-col items-center justify-center">
-  <p>Profile</p>
-</main>
+<!-- <script>
+  import { onMount } from 'svelte';
+  import { page } from '$app/stores';
+  import { replaceState } from '$app/navigation';
+
+  onMount(() => {
+    if (!$page.data.authenticated) {
+      replaceState('/login', { authenticated: false });
+    }
+  });
+</script> -->
+
+<p>Profile</p>
