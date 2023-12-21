@@ -1,6 +1,5 @@
 <script lang="ts">
-  import AppBar from '$lib/components/AppBar.svelte';
-  import AppShell from '$lib/components/AppShell.svelte';
+  import { AppBar, AppRail, AppRailTile, AppShell } from '$lib/components';
 </script>
 
 <AppShell>
@@ -12,6 +11,15 @@
         </form>
       </svelte:fragment>
     </AppBar>
+  </svelte:fragment>
+  <svelte:fragment slot="sidebarLeft">
+    <AppRail>
+      <AppRailTile group={0} title="Profile" value={0}>
+        <svelte:fragment slot="lead">
+          (icon)
+        </svelte:fragment>
+      </AppRailTile>
+    </AppRail>
   </svelte:fragment>
   <slot />
 </AppShell>
