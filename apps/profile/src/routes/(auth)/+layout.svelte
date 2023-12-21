@@ -3,5 +3,7 @@
 </script>
 
 <AppShell>
-  <slot />
+  <div class="card p-8 w-full md:w-max">
+    <slot />
+  </div>
 </AppShell>
