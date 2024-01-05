@@ -4,7 +4,7 @@
 
 <AppShell>
   <svelte:fragment slot="header">
-    <AppBar title="Profile">
+    <AppBar title="Home">
       <svelte:fragment slot="trail">
         <form method="POST" action="/?/logout">
           <button class="btn btn-sm variant-filled-tertiary">Log out</button>
@@ -14,7 +14,7 @@
   </svelte:fragment>
   <svelte:fragment slot="sidebarLeft">
     <AppRail>
-      <AppRailTile group={0} title="Profile" value={0}>
+      <AppRailTile group={0} title="Home" value={0}>
         <svelte:fragment slot="lead">
           (icon)
         </svelte:fragment>
