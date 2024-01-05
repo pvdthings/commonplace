@@ -2,7 +2,7 @@
   import { AppShell } from "@skeletonlabs/skeleton";
 </script>
 
-<AppShell>
+<AppShell slotSidebarLeft="w-0 lg:w-max">
   <svelte:fragment slot="header">
     <slot name="header" />
   </svelte:fragment>
